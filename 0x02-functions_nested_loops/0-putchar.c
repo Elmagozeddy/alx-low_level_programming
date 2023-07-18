@@ -1,23 +1,12 @@
-#include <unistd.h>
-#include "main.h"
+Here is the C code that prints `_putchar` followed by a new line and returns 0:
 
-int _putchar(char c)
-{
-  return write(1, &c, 1);
+```c
+#include <stdio.h>
+
+int main() {
+    printf("_putchar\n");
+    return 0;
 }
+```
 
-int main(void)
-{
-  _putchar('_');
-  _putchar('p');
-  _putchar('u');
-  _putchar('t');
-  _putchar('c');
-  _putchar('h');
-  _putchar('a');
-  _putchar('r');
-  _putchar('\n');
-
-  return 0;
-}
-
+When you run this code, it will output `_putchar` followed by a new line. The `return 0` statement indicates that the program has executed successfully.
